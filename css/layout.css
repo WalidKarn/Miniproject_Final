@@ -1,0 +1,52 @@
+/*ทำทั้งเอกสาร*/
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*header style*/
+header{
+    background-color: #154;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: wheat;
+}
+
+/* create 2 box: nav , article */
+nav{
+    float: left;
+    width: 30%;
+    height: 9500px;
+    background-color: wheat;
+    padding: 20px;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0px;
+}
+
+article{
+    float: left;
+    padding: 20px;
+    width: 70%;
+    height: 9500px;
+    background-color:#D4E7C5;
+}
+
+footer{
+    background-color:#D4E7C5;
+    padding: 10px;
+    text-align: center;
+    color:  white;
+}
+/* responsive web ratio */
+@media(max-width:600px){
+    nav, article{
+        width: 100%;
+        height: auto;
+    }
+}
